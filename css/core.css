@@ -50,8 +50,39 @@ body {
 	color: #444;
 	font: 0.75em "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 	}
+	
+@import url(http://fonts.googleapis.com/css?family=Oswald);
 
 /* Structure
+----------------------------------------------------------- */
+
+#page-wrap {
+	margin: 20px auto;
+	max-width: 980px;
+	width: 80%;
+	}
+
+/* -- Main Resume Region Styling -- */
+.resume-region {
+	border-top: 1px solid #666;
+	margin: 1.5306122% 0 2.5510204%;
+	}
+.resume-region:before, .resume-region:after { content:""; display: block; overflow: hidden; }
+.resume-region:after { clear: both; }
+.resume-region { zoom: 1; }
+	
+.region-title, .region-content { float: left; }
+.region-title {
+	border-top: 1px solid #666;
+	padding: 1.5306122% 1%;
+	width: 30.6530612%;
+	}
+.region-content {
+	padding: 0 2%;
+	width: 63.3469388%;
+	}
+
+/* Stylish Doo-Dads
 ----------------------------------------------------------- */
 
 
@@ -59,7 +90,15 @@ body {
 /* Typography
 ----------------------------------------------------------- */
 
-h1, h2, h3, h4, h5, h6 {  }
+h1, h2, h3, h4, h5, h6 { font-family: 'Oswald', sans-serif; font-weight: normal; }
+h2 {
+	font-size: 2.8em;
+	text-transform: uppercase;
+	}
+h3 {
+	color: #777;
+	font-size: 1.5em;
+	}
 
 a, a:active, a:visited {  }
 a:hover {  }
@@ -87,15 +126,20 @@ textarea { overflow: auto; }
 /* Media Queries & Overrides
 ----------------------------------------------------------- */
 
-@media all and (orientation:portrait) {
-	
-}
 
-@media all and (orientation:landscape) {
-	
-}
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
+
+	.region-title, .region-content { float: none; width: 100%; }
+
+	h2 {
+		font-size: 2.8em;
+		text-transform: uppercase;
+		}
+	h3 {
+		color: #777;
+		font-size: 1.5em;
+		}
 
 }
 
