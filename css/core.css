@@ -48,8 +48,8 @@ q:before,q:after{content:'';content:none;}
 html { overflow-y: scroll; }
 body {
 	color: #444;
-	font: 0.75em "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-	margin: 5% 0;
+	font: 0.82em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 5% 0 0;
 	}
 	
 @import url(http://fonts.googleapis.com/css?family=Oswald);
@@ -58,7 +58,9 @@ body {
 ----------------------------------------------------------- */
 
 #page-wrap {
-	margin: 20px auto;
+	background: #fff;
+	margin: 20px auto 0;
+	padding: 1.5306122%;
 	max-width: 980px;
 	width: 80%;
 	}
@@ -88,27 +90,19 @@ body {
 ----------------------------------------------------------- */
 
 .profile-avatar {
+	border: 1px solid #bbb;
 	margin: 0 15px 0 0;
+	padding: 5px;
 	width: 128px;
 	}
 
-.social-networks {
-	background: rgba(0, 0, 0, 0.1);
-	border: 1px solid rgba(0, 0, 0, 0.11);
-	margin: 10px 0;
-	padding: 5px;
-	-webkit-border-radius: 5px;
-	 -khtml-border-radius: 5px;
-	   -moz-border-radius: 5px;
-			border-radius: 5px;
-	}
 .social-networks li { float: left; margin: 0 5px; }
 .social-networks a {
 	background: blue;
 	display: block;
-	height: 20px;
+	height: 32px;
 	text-indent: -9999px;
-	width: 20px;
+	width: 32px;
 	}
 
 /* Typography
@@ -124,8 +118,19 @@ h3 {
 	font-size: 1.5em;
 	}
 
-a, a:active, a:visited {  }
-a:hover {  }
+p {
+	line-height: 1.5em;
+	margin-bottom: 20px;
+	}
+
+a, a:active, a:visited {
+	color: #0069d6;
+	text-decoration: none;
+	}
+a:hover {
+	color: #00438a;
+	text-decoration: underline;
+	}
 a:hover, a:active { outline: none; }
 
 ol { list-style-type: decimal; }
@@ -170,6 +175,7 @@ textarea { overflow: auto; }
 }
 @media screen and (max-width: 480px) {
 	
+	#page-wrap { width: 90%; }
 	.resume-region { border-top: 2px solid #666; margin: 10% 0; }
 	.region-title, .region-content { float: none; width: 100%; }
 	.region-title { border: 0; }
