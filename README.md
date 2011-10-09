@@ -4,6 +4,26 @@ JoshuaRJones.me strives to be a clean, semantic and responsive resume-like site 
 
 I desired a responsive resume layout without extra `div`s with a class of `.clear` to make the layout work. It's a slow work in progress, mostly because I'm busy with numerous other projects, but it should be a solid semantic resume layout when it's completed.
 
+**Themes:** To get a different theme, there are really only two areas that need tweaking. The body's background color:
+
+`body {
+	background: -> #9ebf75 <- url( ../images/grid-bg.png);
+	}`
+	
+And if you want to keep the unified feel, you'll need to edit the colors for the progress meters:
+
+`.meter span {
+	background-color: #acd27c;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#acd27c), to(#7aa04b));
+	background-image: -webkit-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	background-image:    -moz-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	background-image:     -ms-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	background-image:      -o-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	background-image:         linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	display: block;
+	overflow: hidden;
+	}`
+
 ## Skillset Region
 
 The progress bars in the skillset region are inspired from [Chris Coyier's](http://css-tricks.com/) progress bars article, updated and cleaned up a bit.

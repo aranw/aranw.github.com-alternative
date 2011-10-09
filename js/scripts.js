@@ -6,6 +6,6 @@
 // DocReady Stuffs
 $(document).ready(function(){
 
-	$('.gallery a').colorbox({rel:'portfolio', maxWidth: '100%'});
+	$('.gallery a').colorbox({rel:'portfolio', maxWidth: '97%'});
 	
 });
