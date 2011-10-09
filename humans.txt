@@ -11,11 +11,13 @@ Location: Orange, CA
 /* THANKS 
 ---------------------------------------------- */
 
-Names (& URL): 
+Chris Coyier of CSS-Tricks (http://css-tricks.com/)
+Nathan McMillan for the idea
+
 
 /* SITE 
 ---------------------------------------------- */
 
-Standards: HTML5, CSS3
+Standards: HTML, CSS
 Components: Modernizr, jQuery
-Software: Coda, TextMate
+Software: Coda, TextMate, git
