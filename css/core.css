@@ -47,6 +47,7 @@ q:before,q:after{content:'';content:none;}
 
 html { overflow-y: scroll; }
 body {
+	
 	color: #444;
 	font: 0.82em "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 5% 0 0;
@@ -104,6 +105,37 @@ body {
 	text-indent: -9999px;
 	width: 32px;
 	}
+
+.work-experience {
+	float: left;
+	margin: 0 1.6129032% 1.6129032%;
+	width: 46.7741935%;
+	}
+.work-company { font-size: 15px; }
+.work-company span { color: #a5a5a5; font-size: 11px; padding: 0 0 0 3px; }
+.work-title {
+	color: #999;
+	font-size: 12px;
+	padding: 2px 0 0 0;
+	text-transform: uppercase;
+	}
+.work-description { padding: 5px 0; }
+.work-links { margin: 1.6129032% 1.6129032% 0 1.6129032%; }
+.work-links li { background: url( ../images/li-icon.png) 0 7px no-repeat; padding: 5px 0 0 17px; }
+.work-links em { color: #aaa; font-size: 11px; }
+.work-links a:hover em { color: #888; }
+
+.gallery li {
+	float: left;
+	margin: 0 1.6129032% 1.6129032% 0;
+	width: 15%;
+	}
+.gallery a {
+	border: 1px solid #bbb;
+	display: block;
+	padding: 5.3763441% 5.3763441% 3.2258065% 5.3763441%; /* Due to the 1px border, the bottom padding appears larger than the rest. In the sites 980px width, each `li` is 93px. 2px(top and bottom borders)/93px = 2.1505376% so the follow calculates our bottom padding - 5.3763441-2.1505376% = 3.2258065% */
+	}
+.gallery img { max-width: 100%; }
 
 /* Typography
 ----------------------------------------------------------- */
@@ -169,6 +201,10 @@ textarea { overflow: auto; }
 	
 	.profile-avatar { width: 64px; }
 	
+	.work-experience { margin-top: 20px; width: 99%; }
+	
+	.gallery li { margin: 0 3.2258065% 3.2258065% 0; width: 30%; }
+	
 	h2 { font-size: 2em; }
 	h3 { font-size: 1em; }
 
@@ -179,6 +215,8 @@ textarea { overflow: auto; }
 	.resume-region { border-top: 2px solid #666; margin: 10% 0; }
 	.region-title, .region-content { float: none; width: 100%; }
 	.region-title { border: 0; }
+	
+	.gallery li { width: 29%; }
 
 }
 
