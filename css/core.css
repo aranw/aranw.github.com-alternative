@@ -64,6 +64,9 @@ body {
 	padding: 1.5306122%;
 	max-width: 980px;
 	width: 80%;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+	   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+			box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
 	}
 
 /* -- Main Resume Region Styling -- */
@@ -105,10 +108,63 @@ body {
 	text-indent: -9999px;
 	width: 32px;
 	}
+	
+.skillset-list li {
+	padding: 20px 0;
+	}
+.skillset-list strong {
+	float: left;
+	line-height: 15px;
+	padding: 0 1.6129032% 0 0;
+	text-align: right;
+	width: 16.1290323%;
+	}
+.meter, .meter span {
+	height: 15px;
+	position: relative;
+	-webkit-border-radius: 10px;
+	 -khtml-border-radius: 10px;
+	   -moz-border-radius: 10px;
+			border-radius: 10px;
+	}
+.meter {
+	background: #e4e4e4;
+	float: left;
+	width: 82.2580645%;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.1) 0 0 5px;
+	   -moz-box-shadow: inset rgba(0, 0, 0, 0.1) 0 0 5px;
+			box-shadow: inset rgba(0, 0, 0, 0.1) 0 0 5px;
+	}
+.meter span {
+	background-color: #acd27c;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#acd27c), to(#7aa04b));
+	background-image: -webkit-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	background-image:    -moz-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	background-image:     -ms-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	background-image:      -o-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	background-image:         linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+	display: block;
+	overflow: hidden;
+	}
+.meter span:after {
+    content: "";
+	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent) );
+	background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 100% );
+	background-image:    -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 100% );
+	background-image:     -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 100% );
+	background-image:      -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 100% );
+	background-image:         linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 100% );		
+	overflow: hidden;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+    -webkit-background-size: 35px 35px;
+       -moz-background-size: 35px 35px;
+	z-index: 1;
+}
 
 .work-experience {
 	float: left;
-	margin: 0 1.6129032% 1.6129032%;
+	margin: 0 1.6129032% 30px;
 	width: 46.7741935%;
 	}
 .work-company { font-size: 15px; }
@@ -200,6 +256,13 @@ textarea { overflow: auto; }
 		}
 	
 	.profile-avatar { width: 64px; }
+	
+	.skillset-list strong { text-align: left; }
+	.meter {
+		clear: both;
+		margin: 5px 0 10px;
+		width: 100%;
+		}
 	
 	.work-experience { margin-top: 20px; width: 99%; }
 	
