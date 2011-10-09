@@ -12,7 +12,11 @@ The `span` element inside the `div` with the class `.meter` has an inline style 
 
 More here: [http://css-tricks.com/8518-css3-progress-bars/](http://css-tricks.com/8518-css3-progress-bars/)
 
-## Bugs
+## To-Do
+
+* JavaScript trigger that slides down brief explanation when a skillset is clicked on.
+
+### Bugs
 
 If you find a bug playing with the layout, please create an issue here on GitHub.
 
