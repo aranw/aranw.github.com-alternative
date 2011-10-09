@@ -47,10 +47,10 @@ q:before,q:after{content:'';content:none;}
 
 html { overflow-y: scroll; }
 body {
-	
+	background: #9ebf75 url( ../images/grid-bg.png);
 	color: #444;
 	font: 0.82em "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin: 5% 0 0;
+	margin: 5% 0;
 	}
 	
 @import url(http://fonts.googleapis.com/css?family=Oswald);
