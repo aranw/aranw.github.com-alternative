@@ -12,17 +12,17 @@ I desired a responsive resume layout without extra `div`s with a class of `.clea
 	
 And if you want to keep the unified feel, you'll need to edit the colors for the progress meters:
 
-`.meter span {
-	background-color: #acd27c;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#acd27c), to(#7aa04b));
-	background-image: -webkit-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
-	background-image:    -moz-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
-	background-image:     -ms-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
-	background-image:      -o-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
-	background-image:         linear-gradient(top, #acd27c 0%, #7aa04b 100% );
-	display: block;
-	overflow: hidden;
-	}`
+	.meter span {
+		background-color: #acd27c;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#acd27c), to(#7aa04b));
+		background-image: -webkit-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+		background-image:    -moz-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+		background-image:     -ms-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+		background-image:      -o-linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+		background-image:         linear-gradient(top, #acd27c 0%, #7aa04b 100% );
+		display: block;
+		overflow: hidden;
+		}
 
 ## Skillset Region
 
