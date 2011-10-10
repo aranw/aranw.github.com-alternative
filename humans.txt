@@ -13,6 +13,7 @@ Location: Orange, CA
 
 Chris Coyier of CSS-Tricks (http://css-tricks.com/)
 Nathan McMillan for the idea
+IconDock for releasing Vector Social Media Icons (http://icondock.com/free/vector-social-media-icons)
 
 
 /* SITE 

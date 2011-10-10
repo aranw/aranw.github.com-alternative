@@ -35,6 +35,7 @@ More here: [http://css-tricks.com/8518-css3-progress-bars/](http://css-tricks.co
 ## To-Do
 
 * JavaScript trigger that slides down brief explanation when a skillset is clicked on.
+* CSS opacity hover effects on social icons and gallery thumbs
 
 ### Bugs
 
