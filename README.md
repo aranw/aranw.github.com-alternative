@@ -39,6 +39,8 @@ More here: [http://css-tricks.com/8518-css3-progress-bars/](http://css-tricks.co
 
 ### Bugs
 
+* IE6 and IE7 have problems with responsive images. Portfolio thumbnails appear wrong.
+
 If you find a bug playing with the layout, please create an issue here on GitHub.
 
 [https://github.com/JoshuaJones/JoshuaRJones.me/issues](https://github.com/JoshuaJones/JoshuaRJones.me/issues)

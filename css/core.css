@@ -250,9 +250,11 @@ textarea { overflow: auto; }
 .cf { zoom: 1; }
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
 
-/* Media Queries & Overrides
+/* IE Fixes - Media Queries & Overrides
 ----------------------------------------------------------- */
 
+.ie6 .work-experience { margin: 0 1% 30px 0; width: 45%; }
+.ie7 .region-content { padding: 3% 2% 3% 0; width: 62%; }
 
 @media screen and (max-width: 768px) {
 	
