@@ -19,6 +19,8 @@ Table of Contents:
 /* General
 ----------------------------------------------------------- */
 
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
 html,body,div,span,object,iframe,
 h1,h2,h3,h4,h5,h6,p,blockquote,pre,
 a,abbr,address,cite,code,
@@ -50,10 +52,8 @@ body {
 	background: #9ebf75 url( ../images/grid-bg.png );
 	color: #444;
 	font: 0.82em "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin: 5% 0;
+	margin: 5% 0 2%;
 	}
-	
-@import url(http://fonts.googleapis.com/css?family=Oswald);
 
 /* Structure
 ----------------------------------------------------------- */
@@ -87,6 +87,13 @@ body {
 .region-content {
 	padding: 3% 2%;
 	width: 63.3469388%;
+	}
+.copyright {
+	color: #fff;
+	font: 16px 'Oswald', sans-serif;
+	margin: 25px 0 0 0;
+	text-align: center;
+	opacity: 0.65;
 	}
 	
 
