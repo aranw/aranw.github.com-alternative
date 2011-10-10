@@ -109,12 +109,15 @@ body {
 
 .social-networks li { float: left; margin: 0 5px; }
 .social-networks a {
-	background: blue;
 	display: block;
 	height: 32px;
 	text-indent: -9999px;
 	width: 32px;
 	}
+.social-networks .github { background: url( ../images/icons/github.png ); }
+.social-networks .forrst { background: url( ../images/icons/forrst.png ); }
+.social-networks .twitter { background: url( ../images/icons/twitter.png ); }
+.social-networks .google-plus { background: url( ../images/icons/google-plus.png ); }
 	
 .skillset-list li {
 	padding: 20px 0;
